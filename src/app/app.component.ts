@@ -10,7 +10,7 @@ import { routes } from './app.routes'
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   providers: [ provideAnimations() ],
-  imports: [ HerosComponent, CommonModule, LandingPageComponent]
+  imports: [ CommonModule, LandingPageComponent]
 })
 export class AppComponent {
   title = 'Punk Code Solutio';
